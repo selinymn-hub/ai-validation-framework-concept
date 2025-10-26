@@ -11,6 +11,10 @@ This concept uses historical labelled results to predict **instability risk** an
 
 ---
 
+![AI Validation Framework concept](ai_validation_flow.png)
+
+---
+
 ## Architecture Overview
 
 ```mermaid
