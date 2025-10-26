@@ -12,14 +12,16 @@ This concept uses historical labelled results to predict **instability risk** an
 ---
 
 ## Architecture Overview
+
 ```mermaid
 flowchart LR
-  A[Commit / Config change] --> B[Continuous Validation Job]
-  B --> C[Run Simulation / Bench Test]
-  C --> D[Feature Extractor (peaks, RMS, THD)]
+  A[Commit] --> B[CI Validation]
+  B --> C[Run Simulation]
+  C --> D[Feature Extractor]
   D --> E[(Historical Outcomes)]
   E --> F[Risk Model]
   F --> G[Risk Score + Label]
-  G --> H[Report / Dashboard]
+  G --> H[Report]
   H --> I[Engineer Review]
   I --> E
+
