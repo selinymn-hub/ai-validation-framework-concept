@@ -1,7 +1,7 @@
 # AI-Enabled Validation Framework (Concept)
 
 Vendor-agnostic example showing how ML-assisted validation can
-prioritize tests, flag anomalies, and speed release cycles — **without** any proprietary data or code.
+prioritize tests, flag anomalies, and speed release cycles, **without** any proprietary data or code.
 
 ---
 
